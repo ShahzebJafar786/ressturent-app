@@ -1,0 +1,25 @@
+.main-container {
+    display: flex;
+}
+.pizzadesign {
+    
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    max-height: 500px ;
+    margin-left: 100px;
+    border: 2px solid;
+}
+
+
+.checkbox-area {
+    flex: 1;
+    border: 2px solid;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+.ingredients {
+    justify-content: flex-start;
+    position: absolute;
+}
